@@ -1,0 +1,29 @@
+.ir-input-container {
+    padding-bottom: 4px;
+}
+
+.ir-input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+.ir-input[type="number"], .ir-input[type="number"]+.ir-input-line{
+    width: 64px;
+    text-align: center;
+}
+
+.ir-input:focus {
+    outline: none;
+}
+
+.ir-input-line {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #cccccc;
+}
+
+.ir-input:focus+.ir-input-line {
+    background: blue;
+}
